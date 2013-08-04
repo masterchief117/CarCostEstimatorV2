@@ -15,14 +15,24 @@
 		B01D98BC17AAF90F007899DF /* BSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B01D98BB17AAF90F007899DF /* BSAppDelegate.m */; };
 		B01D98BF17AAF90F007899DF /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B01D98BD17AAF90F007899DF /* Main_iPhone.storyboard */; };
 		B01D98C217AAF90F007899DF /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B01D98C017AAF90F007899DF /* Main_iPad.storyboard */; };
-		B01D98C517AAF90F007899DF /* BSFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B01D98C417AAF90F007899DF /* BSFirstViewController.m */; };
-		B01D98C817AAF90F007899DF /* BSSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B01D98C717AAF90F007899DF /* BSSecondViewController.m */; };
+		B01D98C517AAF90F007899DF /* BSHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B01D98C417AAF90F007899DF /* BSHistoryViewController.m */; };
+		B01D98C817AAF90F007899DF /* BSSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B01D98C717AAF90F007899DF /* BSSearchViewController.m */; };
 		B01D98CA17AAF90F007899DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B01D98C917AAF90F007899DF /* Images.xcassets */; };
 		B01D98D117AAF90F007899DF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B01D98D017AAF90F007899DF /* XCTest.framework */; };
 		B01D98D217AAF90F007899DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B01D98AB17AAF90F007899DF /* Foundation.framework */; };
 		B01D98D317AAF90F007899DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B01D98AF17AAF90F007899DF /* UIKit.framework */; };
 		B01D98DB17AAF90F007899DF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B01D98D917AAF90F007899DF /* InfoPlist.strings */; };
 		B01D98DD17AAF90F007899DF /* CarCostEstimatorV2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B01D98DC17AAF90F007899DF /* CarCostEstimatorV2Tests.m */; };
+		B01D98EF17AAFC7A007899DF /* BSProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B01D98EE17AAFC7A007899DF /* BSProfileViewController.m */; };
+		B01D98FA17AB0B69007899DF /* BSAddCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B01D98F917AB0B69007899DF /* BSAddCarViewController.m */; };
+		B01D98FC17AB0B9A007899DF /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B01D98FB17AB0B9A007899DF /* CoreData.framework */; };
+		B01D98FE17AB0C0B007899DF /* Cars.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = B01D98FD17AB0C0B007899DF /* Cars.xcdatamodel */; };
+		B0969E6317ABFBB300529965 /* BSNormalPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0969E6217ABFBB300529965 /* BSNormalPickerViewController.m */; };
+		B0969E6A17AC17F500529965 /* BSUserDefaultsStringUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = B0969E6917AC17F500529965 /* BSUserDefaultsStringUtility.m */; };
+		B0969E6E17AC28EE00529965 /* BSSetUserDefaultsUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = B0969E6D17AC28EE00529965 /* BSSetUserDefaultsUtility.m */; };
+		B0969E7117AC2F4F00529965 /* BSParseViewControllerForObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B0969E7017AC2F4F00529965 /* BSParseViewControllerForObject.m */; };
+		B0E2C6A017AB0FCC0070DBCC /* Information.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E2C69F17AB0FCC0070DBCC /* Information.m */; };
+		B0E2C6A317AB0FCD0070DBCC /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E2C6A217AB0FCD0070DBCC /* Car.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,16 +58,35 @@
 		B01D98BB17AAF90F007899DF /* BSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSAppDelegate.m; sourceTree = "<group>"; };
 		B01D98BE17AAF90F007899DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		B01D98C117AAF90F007899DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		B01D98C317AAF90F007899DF /* BSFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSFirstViewController.h; sourceTree = "<group>"; };
-		B01D98C417AAF90F007899DF /* BSFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSFirstViewController.m; sourceTree = "<group>"; };
-		B01D98C617AAF90F007899DF /* BSSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSSecondViewController.h; sourceTree = "<group>"; };
-		B01D98C717AAF90F007899DF /* BSSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSSecondViewController.m; sourceTree = "<group>"; };
+		B01D98C317AAF90F007899DF /* BSHistoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSHistoryViewController.h; sourceTree = "<group>"; };
+		B01D98C417AAF90F007899DF /* BSHistoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSHistoryViewController.m; sourceTree = "<group>"; };
+		B01D98C617AAF90F007899DF /* BSSearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSSearchViewController.h; sourceTree = "<group>"; };
+		B01D98C717AAF90F007899DF /* BSSearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSSearchViewController.m; sourceTree = "<group>"; };
 		B01D98C917AAF90F007899DF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B01D98CF17AAF90F007899DF /* CarCostEstimatorV2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarCostEstimatorV2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B01D98D017AAF90F007899DF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		B01D98D817AAF90F007899DF /* CarCostEstimatorV2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CarCostEstimatorV2Tests-Info.plist"; sourceTree = "<group>"; };
 		B01D98DA17AAF90F007899DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B01D98DC17AAF90F007899DF /* CarCostEstimatorV2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarCostEstimatorV2Tests.m; sourceTree = "<group>"; };
+		B01D98ED17AAFC7A007899DF /* BSProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSProfileViewController.h; sourceTree = "<group>"; };
+		B01D98EE17AAFC7A007899DF /* BSProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSProfileViewController.m; sourceTree = "<group>"; };
+		B01D98F617AB0945007899DF /* car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car.png; sourceTree = "<group>"; };
+		B01D98F817AB0B69007899DF /* BSAddCarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSAddCarViewController.h; sourceTree = "<group>"; };
+		B01D98F917AB0B69007899DF /* BSAddCarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSAddCarViewController.m; sourceTree = "<group>"; };
+		B01D98FB17AB0B9A007899DF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B01D98FD17AB0C0B007899DF /* Cars.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cars.xcdatamodel; sourceTree = "<group>"; };
+		B0969E6117ABFBB300529965 /* BSNormalPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSNormalPickerViewController.h; sourceTree = "<group>"; };
+		B0969E6217ABFBB300529965 /* BSNormalPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSNormalPickerViewController.m; sourceTree = "<group>"; };
+		B0969E6817AC17F500529965 /* BSUserDefaultsStringUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSUserDefaultsStringUtility.h; sourceTree = "<group>"; };
+		B0969E6917AC17F500529965 /* BSUserDefaultsStringUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSUserDefaultsStringUtility.m; sourceTree = "<group>"; };
+		B0969E6C17AC28EE00529965 /* BSSetUserDefaultsUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSSetUserDefaultsUtility.h; sourceTree = "<group>"; };
+		B0969E6D17AC28EE00529965 /* BSSetUserDefaultsUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSSetUserDefaultsUtility.m; sourceTree = "<group>"; };
+		B0969E6F17AC2F4F00529965 /* BSParseViewControllerForObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSParseViewControllerForObject.h; sourceTree = "<group>"; };
+		B0969E7017AC2F4F00529965 /* BSParseViewControllerForObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSParseViewControllerForObject.m; sourceTree = "<group>"; };
+		B0E2C69E17AB0FCC0070DBCC /* Information.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Information.h; sourceTree = "<group>"; };
+		B0E2C69F17AB0FCC0070DBCC /* Information.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Information.m; sourceTree = "<group>"; };
+		B0E2C6A117AB0FCD0070DBCC /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		B0E2C6A217AB0FCD0070DBCC /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B01D98FC17AB0B9A007899DF /* CoreData.framework in Frameworks */,
 				B01D98AE17AAF90F007899DF /* CoreGraphics.framework in Frameworks */,
 				B01D98B017AAF90F007899DF /* UIKit.framework in Frameworks */,
 				B01D98AC17AAF90F007899DF /* Foundation.framework in Frameworks */,
@@ -88,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				B01D98B117AAF90F007899DF /* CarCostEstimatorV2 */,
+				B01D98E917AAFBA3007899DF /* Tabs */,
 				B01D98D617AAF90F007899DF /* CarCostEstimatorV2Tests */,
 				B01D98AA17AAF90F007899DF /* Frameworks */,
 				B01D98A917AAF90F007899DF /* Products */,
@@ -106,6 +137,7 @@
 		B01D98AA17AAF90F007899DF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B01D98FB17AB0B9A007899DF /* CoreData.framework */,
 				B01D98AB17AAF90F007899DF /* Foundation.framework */,
 				B01D98AD17AAF90F007899DF /* CoreGraphics.framework */,
 				B01D98AF17AAF90F007899DF /* UIKit.framework */,
@@ -117,14 +149,16 @@
 		B01D98B117AAF90F007899DF /* CarCostEstimatorV2 */ = {
 			isa = PBXGroup;
 			children = (
+				B0969E6B17AC17FA00529965 /* Utility */,
+				B0969E6417AC084800529965 /* Categories */,
+				B01D98F717AB0B2A007899DF /* Controllers */,
+				B0E2C6A417AB0FD20070DBCC /* Entities */,
+				B01D98FD17AB0C0B007899DF /* Cars.xcdatamodel */,
+				B01D98E717AAF9FC007899DF /* Resources */,
 				B01D98BA17AAF90F007899DF /* BSAppDelegate.h */,
 				B01D98BB17AAF90F007899DF /* BSAppDelegate.m */,
 				B01D98BD17AAF90F007899DF /* Main_iPhone.storyboard */,
 				B01D98C017AAF90F007899DF /* Main_iPad.storyboard */,
-				B01D98C317AAF90F007899DF /* BSFirstViewController.h */,
-				B01D98C417AAF90F007899DF /* BSFirstViewController.m */,
-				B01D98C617AAF90F007899DF /* BSSecondViewController.h */,
-				B01D98C717AAF90F007899DF /* BSSecondViewController.m */,
 				B01D98C917AAF90F007899DF /* Images.xcassets */,
 				B01D98B217AAF90F007899DF /* Supporting Files */,
 			);
@@ -158,6 +192,78 @@
 				B01D98D917AAF90F007899DF /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B01D98E617AAF9EB007899DF /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				B01D98F617AB0945007899DF /* car.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		B01D98E717AAF9FC007899DF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B01D98E617AAF9EB007899DF /* Image */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B01D98E917AAFBA3007899DF /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Tabs;
+			path = CarCostEstimatorV2;
+			sourceTree = "<group>";
+		};
+		B01D98F717AB0B2A007899DF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B01D98C317AAF90F007899DF /* BSHistoryViewController.h */,
+				B01D98C417AAF90F007899DF /* BSHistoryViewController.m */,
+				B01D98C617AAF90F007899DF /* BSSearchViewController.h */,
+				B01D98C717AAF90F007899DF /* BSSearchViewController.m */,
+				B01D98ED17AAFC7A007899DF /* BSProfileViewController.h */,
+				B01D98EE17AAFC7A007899DF /* BSProfileViewController.m */,
+				B01D98F817AB0B69007899DF /* BSAddCarViewController.h */,
+				B01D98F917AB0B69007899DF /* BSAddCarViewController.m */,
+				B0969E6117ABFBB300529965 /* BSNormalPickerViewController.h */,
+				B0969E6217ABFBB300529965 /* BSNormalPickerViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		B0969E6417AC084800529965 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		B0969E6B17AC17FA00529965 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				B0969E6817AC17F500529965 /* BSUserDefaultsStringUtility.h */,
+				B0969E6917AC17F500529965 /* BSUserDefaultsStringUtility.m */,
+				B0969E6C17AC28EE00529965 /* BSSetUserDefaultsUtility.h */,
+				B0969E6D17AC28EE00529965 /* BSSetUserDefaultsUtility.m */,
+				B0969E6F17AC2F4F00529965 /* BSParseViewControllerForObject.h */,
+				B0969E7017AC2F4F00529965 /* BSParseViewControllerForObject.m */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		B0E2C6A417AB0FD20070DBCC /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				B0E2C6A117AB0FCD0070DBCC /* Car.h */,
+				B0E2C6A217AB0FCD0070DBCC /* Car.m */,
+				B0E2C69E17AB0FCC0070DBCC /* Information.h */,
+				B0E2C69F17AB0FCC0070DBCC /* Information.m */,
+			);
+			name = Entities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,10 +365,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B01D98C517AAF90F007899DF /* BSFirstViewController.m in Sources */,
+				B0E2C6A317AB0FCD0070DBCC /* Car.m in Sources */,
+				B0969E6A17AC17F500529965 /* BSUserDefaultsStringUtility.m in Sources */,
+				B01D98FA17AB0B69007899DF /* BSAddCarViewController.m in Sources */,
+				B01D98C517AAF90F007899DF /* BSHistoryViewController.m in Sources */,
 				B01D98B817AAF90F007899DF /* main.m in Sources */,
+				B0969E7117AC2F4F00529965 /* BSParseViewControllerForObject.m in Sources */,
+				B0969E6E17AC28EE00529965 /* BSSetUserDefaultsUtility.m in Sources */,
+				B01D98FE17AB0C0B007899DF /* Cars.xcdatamodel in Sources */,
+				B01D98EF17AAFC7A007899DF /* BSProfileViewController.m in Sources */,
 				B01D98BC17AAF90F007899DF /* BSAppDelegate.m in Sources */,
-				B01D98C817AAF90F007899DF /* BSSecondViewController.m in Sources */,
+				B0E2C6A017AB0FCC0070DBCC /* Information.m in Sources */,
+				B01D98C817AAF90F007899DF /* BSSearchViewController.m in Sources */,
+				B0969E6317ABFBB300529965 /* BSNormalPickerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,6 +590,7 @@
 				B01D98E217AAF90F007899DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B01D98E317AAF90F007899DF /* Build configuration list for PBXNativeTarget "CarCostEstimatorV2Tests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +599,7 @@
 				B01D98E517AAF90F007899DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
