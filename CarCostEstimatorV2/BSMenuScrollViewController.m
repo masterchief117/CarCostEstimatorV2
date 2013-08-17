@@ -1,19 +1,21 @@
 //
-//  BSCarsViewController.m
+//  BSMenuScrollViewController.m
 //  CarCostEstimatorV2
 //
-//  Created by Brent Stewart on 8/1/13.
+//  Created by Brent Stewart on 8/13/13.
 //  Copyright (c) 2013 Catalyst It Services. All rights reserved.
 //
 
-#import "BSProfileViewController.h"
+#import "BSMenuScrollViewController.h"
 #import "BSCircleMenuViewController.h"
 
-@interface BSProfileViewController ()
+@interface BSMenuScrollViewController ()
+
 
 @end
 
-@implementation BSProfileViewController
+@implementation BSMenuScrollViewController
+
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -27,7 +29,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-     
+    
+    
+    [_primaryScrollView addSubview:[[BSCircleMenuViewController alloc] init].view];
+	// Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning
@@ -36,9 +41,4 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)clickToNextMenu:(UIButton *)sender {
-//    BSCircleMenuViewController* controller = [[BSCircleMenuViewController alloc] init];
-//    [self presentViewController: controller animated:YES completion:^{
-//    }];
-}
 @end

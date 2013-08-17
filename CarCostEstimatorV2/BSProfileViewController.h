@@ -10,5 +10,7 @@
 
 @interface BSProfileViewController : UIViewController
 @property (strong, nonatomic) IBOutlet UITabBarItem *carsTabView;
+@property (strong, nonatomic) IBOutlet UIButton *nextMenu;
+- (IBAction)clickToNextMenu:(UIButton *)sender;
 
 @end

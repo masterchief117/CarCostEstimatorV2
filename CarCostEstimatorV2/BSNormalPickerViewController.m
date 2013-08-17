@@ -87,7 +87,8 @@ UIView* view;
 }
 
 -(void)returnToPreviousView: (id) sender{
-    UIViewController* controller = [self.storyboard instantiateViewControllerWithIdentifier:returnView];
+    UITabBarController* controller = [self.storyboard instantiateViewControllerWithIdentifier:@"tabBarController"];
+    [controller setSelectedIndex:0];
     [self presentViewController:controller animated:YES completion:^{
         NSLog(@"GoodJobs");
     }];

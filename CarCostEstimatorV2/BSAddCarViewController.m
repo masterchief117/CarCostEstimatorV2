@@ -27,12 +27,18 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [self.addCarDataButton setEnabled:NO];
+    [self.addCarDataButton setTitle:@"-"];
+    
+    
+    
     // locate all text fields in the view
     // set the delegation to self! so we can runs the "interface" level methods
     for(UITextField* field in[BSParseViewControllerForObject findObjectsInView:self.view requestedObjectType:[UITextField class]]){
         field.delegate = self;
     }
 }
+
 
 - (void)didReceiveMemoryWarning
 {
@@ -43,14 +49,15 @@
 
 
 - (IBAction)textEditFinished:(UITextField *)sender {
-    [BSSetUserDefaultsUtility addNewCarTextFields:sender text:sender.text];
+    [BSUserDefaultsUtility addNewCarTextFields:sender text:sender.text];
+    [[[[[self tabBarController] tabBar] items] objectAtIndex:0] setBadgeValue:@"!"];
 }
 
 - (IBAction)viewPicker:(UIButton *)sender {
-    const int LOAN_LENGTH = 1;
-    const int TOTAL_COVERAGE = 2;
-    const int EXPECTED_LIFESPAN = 3;
-    const int TOTAL_LOSS = 4;
+    const int LOAN_LENGTH = 7;
+    const int TOTAL_COVERAGE = 8;
+    const int EXPECTED_LIFESPAN = 9;
+    const int TOTAL_LOSS = 10;
     NSString* returnController = @"AddNewCarStoryboardID";
     NSArray* array;
     NSString* key;
@@ -106,6 +113,9 @@
 -(BOOL)textFieldShouldReturn:(UITextField *)textField{
     [textField resignFirstResponder];
     return YES;
+}
+-(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
+    [[[UIApplication sharedApplication] keyWindow] endEditing:YES];
 }
 
 - (IBAction)saveData:(UIBarButtonItem *)sender {

@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "BSNormalPickerViewController.h"
 #import "BSUserDefaultsStringUtility.h"
-#import "BSSetUserDefaultsUtility.h"
+#import "BSUserDefaultsUtility.h"
 #import "BSParseViewControllerForObject.h"
 
 @interface BSAddCarViewController : UIViewController <UITextFieldDelegate>
@@ -24,6 +24,7 @@
 @property (strong, nonatomic) IBOutlet UIButton *expectedLifespanButton;
 @property (strong, nonatomic) IBOutlet UILabel *totalCostText;
 @property (strong, nonatomic) IBOutlet UIButton *totalLossButton;
+@property (strong, nonatomic) IBOutlet UIBarButtonItem *addCarDataButton;
 
 - (IBAction)textEditFinished:(UITextField *)sender;
 

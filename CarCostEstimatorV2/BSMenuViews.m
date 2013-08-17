@@ -1,0 +1,21 @@
+//
+//  BSMenuViews.m
+//  CarCostEstimatorV2
+//
+//  Created by Brent Stewart on 8/12/13.
+//  Copyright (c) 2013 Catalyst It Services. All rights reserved.
+//
+
+#import "BSMenuViews.h"
+
+@implementation BSMenuViews
+
+
++ (Class)layerClass {
+    return [CATransformLayer class];
+}
+
+
+
+
+@end
